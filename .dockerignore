@@ -1,0 +1,13 @@
+test
+test_results
+dist
+
+*.yaml
+.vscode
+.editorconfig
+.node-version
+
+.git
+*Dockerfile*
+*docker-compose*
+node_modules

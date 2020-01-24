@@ -72,7 +72,6 @@ describe("#http", () => {
 					.put(`/baskets/${basket.id}/items/${basketItem.productId}/quantity`)
 					.send({quantity: 22})
 				const result = await request.default(server).get(`/baskets/${basket.id}`)
-				console.log(result.body)
 				chai.expect(result.body.items[0].quantity).equal(22)
 			})
 
