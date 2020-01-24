@@ -1,0 +1,49 @@
+{
+	"defaultSeverity": "error",
+	"extends": [
+		"tslint:recommended"
+	],
+	"jsRules": {},
+	"rules": {
+		"align": [
+			true,
+			"arguments",
+			"parameters",
+			"statements"
+		],
+		"arrow-parens": false,
+		"indent": [
+			true,
+			"tabs"
+		],
+		"interface-name": [
+			true,
+			"never-prefix"
+		],
+		"no-any": {
+			"severity": "warning"
+		},
+		"no-duplicate-variable": true,
+		"no-switch-case-fall-through": true,
+		"semicolon": [
+			true,
+			"never"
+		],
+		"switch-default": true,
+		"trailing-comma": false,
+		"typedef": [
+			true,
+			"call-signature",
+			"parameter",
+			"property-declaration",
+			"member-variable-declaration"
+		],
+		"variable-name": [
+			true,
+			"ban-keywords",
+			"check-format",
+			"allow-leading-underscore"
+		]
+	},
+	"rulesDirectory": []
+}

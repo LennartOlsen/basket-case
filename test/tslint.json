@@ -1,0 +1,8 @@
+{
+	"extends": "../tslint.json",
+	"rules": {
+		"no-unused-expression": false,
+		"object-literal-sort-keys": false,
+		"no-console":false
+	}
+}
